@@ -1,0 +1,89 @@
+---
+import jsIcon from "../icons/js.svg?raw";
+import reactIcon from "../icons/reactjs.svg?raw";
+import angularIcon from "../icons/angular.svg?raw";
+import tsIcon from "../icons/ts.svg?raw";
+import dotnetIcon from "../icons/dotnet.svg?raw";
+import awsIcon from "../icons/aws.svg?raw";
+import digitalIcon from "../icons/digital.svg?raw";
+import dockerIcon from "../icons/docker.svg?raw";
+import githubIcon from "../icons/github.svg?raw";
+import flutterIcon from "../icons/flutter.svg?raw";
+
+import Card from "./Card/index.astro";
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-9" title="About me">
+  <div class="flex flex-col gap-2">
+    <div class="text-sm font-light">
+      <p>
+        Hi, I'm Vinicius Lucas, a full-stack developer from Brasil.
+        <br />
+        Main tools I often work with:
+      </p>
+      <ul class="list-disc list-inside space-y-4">
+        <li>
+          <span class="text-lg font-bold text-primary">Front end</span>
+          <ul class="block gap-4 pl-4 mt-1">
+            <b>Languages:</b>
+            <li class="flex items-center justify-between">
+              Javascript
+              <Fragment set:html={jsIcon} />
+              Typescript
+              <Fragment set:html={tsIcon} />
+            </li>
+            <b>Frameworks:</b>
+            <li class="flex items-center justify-between">
+              React
+              <Fragment set:html={reactIcon} />
+              Angular
+              <Fragment set:html={angularIcon} />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="text-lg font-bold text-primary">Back end</span>
+          <ul class="block gap-4 pl-4 mt-1">
+            <b>Code:</b>
+            <li class="flex items-center gap-1">
+              C# and <Fragment set:html={dotnetIcon} />
+            </li>
+            <b>ORM:</b>
+            <li class="flex items-center gap-1">Entity Framework and Dapper</li>
+            <b>Database:</b>
+            <li class="flex items-center gap-1">Postgres and SQL Server</li>
+          </ul>
+        </li>
+        <li>
+          <span class="text-lg font-bold text-primary">Devops and CI/CD</span>
+          <ul class="block gap-4 pl-4 mt-1">
+            <li class="flex items-center gap-1">
+              <b>Cloud:</b><Fragment set:html={awsIcon} />
+            </li>
+            <li class="flex items-center gap-1">
+              <b>VPS:</b>Digital Ocean <Fragment set:html={digitalIcon} />
+            </li>
+            <li class="flex items-center gap-1">
+              <b>Docker:</b><Fragment set:html={dockerIcon} />
+            </li>
+            <li class="flex items-center gap-1">
+              <b>GitHub Actions:</b><Fragment set:html={githubIcon} />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="text-lg font-bold text-primary">Mobile</span>
+          <ul class="block gap-4 pl-4 mt-1">
+            <li class="flex items-center gap-1">
+              <b>Flutter:</b><Fragment set:html={flutterIcon} />
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <p class="text-sm font-light">
+      Currently I'm focusing on improvement Devops skills learning more about
+      AWS and its tools. CI/CD as well
+    </p>
+  </div>
+</Card>

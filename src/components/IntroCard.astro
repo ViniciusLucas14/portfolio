@@ -1,0 +1,49 @@
+---
+import Card from "./Card/index.astro";
+import Button from "./Button.astro";
+import { LINKS } from "../lib/constants";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+---
+
+<Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
+  <div class="flex w-full h-full">
+    <div class="flex flex-col justify-between md:max-h-[300px] gap-4">
+      <div class="flex flex-col h-full">
+        <h6 class="text-sm font-light m-0 text-gray-500">welcome</h6>
+        <p class="m-0 font-light text-xl">
+          Hi, I'm <b class="font-bold">Vinicius Lucas</b>, a Full Stack
+          Developer with solid experience in ERP systems and SaaS projects.<br
+          />
+          This is my micro-SaaS project — feel free to explore it! Visit the landing
+          page here:
+          <a class="text-blue" href={LINKS.vitrinid} target="_blank">Vitrinid</a
+          >.<br />
+          I’ll be relocating to Dublin in October as part of a student exchange program
+          to improve my English and embrace new experiences.
+        </p>
+      </div>
+      <div class="flex gap-4">
+        <a aria-label="github profile" href={LINKS.github} target="_blank">
+          <Button aria-label="github profile">
+            <Icon class="h-6" name="ri:github-fill" />
+            <span class="sr-only">GitHub Profile</span>
+          </Button>
+        </a>
+        <a aria-label="linkedin profile" href={LINKS.linkedin} target="_blank">
+          <Button aria-label="linkedin profile">
+            <Icon class="h-6" name="ri:linkedin-box-fill" />
+            <span class="sr-only">Linkedin Profile</span>
+          </Button>
+        </a>
+      </div>
+    </div>
+    <Image
+      alt="photo of Vinicius"
+      class="w-auto max-h-[300px] select-none absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none"
+      height="300"
+      src="/me.webp"
+      width="300"
+    />
+  </div>
+</Card>
