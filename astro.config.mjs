@@ -10,7 +10,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/portfolio/',
+  base: '/',
   site: "https://vinicius.vitrinid.com.br",
   integrations: [
     sitemap(),
