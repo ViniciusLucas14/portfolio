@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 import UnoCSS from "@unocss/astro";
 import icon from "astro-icon";
-
+import awsAmplify from 'astro-aws-amplify';
 import solidJs from "@astrojs/solid-js";
 import { remarkReadingTime } from "./src/lib/remark-reading-time.mjs";
 
@@ -25,6 +25,7 @@ export default defineConfig({
     icon(),
     svelte(),
   ],
+  adapter: awsAmplify(),
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
