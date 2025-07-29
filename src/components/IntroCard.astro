@@ -3,7 +3,6 @@ import Card from "./Card/index.astro";
 import Button from "./Button.astro";
 import { LINKS } from "../lib/constants";
 import { Icon } from "astro-icon/components";
-import { Image } from "astro:assets";
 ---
 
 <Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
@@ -38,7 +37,7 @@ import { Image } from "astro:assets";
         </a>
       </div>
     </div>
-    <Image
+    <img
       alt="photo of Vinicius"
       class="w-auto max-h-[300px] select-none absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none"
       height="300"
