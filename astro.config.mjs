@@ -27,7 +27,11 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
-  output: "server",
+  build: {
+    // Example: Generate `page.html` instead of `page/index.html` during build.
+    format: 'file'
+  },
+  output: 'static',
   vite: {
     assetsInclude: "**/*.riv",
   },
