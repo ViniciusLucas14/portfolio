@@ -1,10 +1,8 @@
-# ⚡️Astro-Bento-Portfolio
+# ⚡️Astro-Bento-Portfolio - A personal portfolio website made using `Astro`.
 
-## A personal portfolio website made using `Astro`.
+<img width="1428" height="959" alt="Image" src="https://github.com/user-attachments/assets/d304bc60-5e85-4398-a584-cb701a1f9c0b" />
 
-![astro-bento-portfolio | Bento-like Personal Porfolio Template](DDDDD)
-
-Portfolio Link: **[click here](https://aws.com)**
+Portfolio Link: **[click here](https://vinicius.vitrinid.com.br/)**
 
 ## Features
 - Modern and Minimal bento-like, sleek UI Design
@@ -21,6 +19,6 @@ Portfolio Link: **[click here](https://aws.com)**
 
 
 Due credits for the original creator. Thank you:
-## Author 
+### Author 
 - Gianmarco - https://github.com/Ladvace
 - Repository: https://github.com/Ladvace/astro-bento-portfolio
