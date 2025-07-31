@@ -1,4 +1,4 @@
-# ⚡️Astro-Bento-Portfolio - A personal portfolio website made using `Astro`.
+# - A personal portfolio website made using `Astro` designed following Bento Grids.
 
 <img width="1428" height="959" alt="Image" src="https://github.com/user-attachments/assets/d304bc60-5e85-4398-a584-cb701a1f9c0b" />
 
