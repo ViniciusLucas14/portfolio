@@ -5,7 +5,7 @@ export const LINKS = {
   instagram: "https://www.instagram.com/vini.lucass/",
   email: "vlucassouza@gmail.com",
   vitrinid: "http://page.vitrinid.com.br/",
-  cv: "https://drive.google.com/file/d/1YHmDrlenQJ1v9eIHEd_OdCNuVbZ9-sBM/view?usp=drive_link",
+  cv: "https://docs.google.com/document/d/12s5c8BpABNxJb67EZXpF1Gs8Q1gm461I/edit?usp=sharing&ouid=113068995718373236787&rtpof=true&sd=true",
 };
 
 export const loaderAnimation = [
